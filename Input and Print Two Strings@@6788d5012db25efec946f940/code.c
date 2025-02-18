@@ -3,8 +3,7 @@
 int main()
 {
     char a[100], b[100];
-    scanf("%s", &a);
-    scanf("%s", &b);
+    scanf("%s %s", &a, b);
     printf("You entered: %s", a, b);
     return 0;
 }
