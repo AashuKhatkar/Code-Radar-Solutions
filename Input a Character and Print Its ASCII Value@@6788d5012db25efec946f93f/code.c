@@ -4,7 +4,6 @@ int main()
 {
     char a;
     scanf("%c", &a);
-    a == 97
-    printf("ASCII Value: %d", a);
+    printf("ASCII Value: %c", a, a);
     return 0;
 }
