@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-nt main()
+int main()
 {
     char name[50], hobby[50];
     int age;
