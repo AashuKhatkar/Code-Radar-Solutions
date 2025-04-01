@@ -1,12 +1,15 @@
 #include<stdio.h>
 void fibonacciSeries(int n) {
-    int first = 0, second = 1, next;
+    int a = 0, b = 1, next;
 
     for (int i = 0; i < n; i++) {
-        printf("%d ", first);
-        next = first + second;
-        first = second;
-        second = next;
+        printf("%d ", a);
+        if ( i < n-1) {
+            printf(" ");
+        }
+        next = a + b;
+        a = b;
+        b = next;
     }
     printf("\n");
     
@@ -17,11 +20,7 @@ int main() {
     
     scanf("%d", &n);
 
-    if (n <=0) {
-        printf("Invalid Input\n");
-    }
-    else {
-        fibonacciSeries(n);
-    }
+    fibonacciSeries(n);
+    
     return 0;
 }
