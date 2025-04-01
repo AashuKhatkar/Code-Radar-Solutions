@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotateRight(int arr[], int r, in k) {
+void rotateRight(int arr[], int r, int k) {
     k %= n;
    for (int i = 0; i < k; i++) {
         int temp = arr[n-1];
