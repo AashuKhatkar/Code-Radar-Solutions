@@ -34,7 +34,7 @@ int main() {
 
     scanf("%d", &k);
 
-    roateArray(arr, n, k);
+    rotateArray(arr, n, k);
     printArray(arr, n);
 
     return 0;
