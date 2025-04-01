@@ -18,9 +18,9 @@ int main() {
 
     if (n <=0) {
         printf("Invalid Input\n");
-        return 0;
     }
     else {
         fibonacci(n);
     }
+    return 0;
 }
