@@ -1,15 +1,4 @@
 #include<stdio.h>
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    if (n <=0) {
-        printf("Invalid Input\n");
-        return 0;
-    }
-    else {
-        fibonacci(n);
-    }
 void fibonacci(int n) {
     int first = 0; second = 1; next;
 
@@ -22,5 +11,16 @@ void fibonacci(int n) {
     printf("\n");
     
 }
-return 0;
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    if (n <=0) {
+        printf("Invalid Input\n");
+        return 0;
+    }
+    else {
+        fibonacci(n);
+    }
 }
