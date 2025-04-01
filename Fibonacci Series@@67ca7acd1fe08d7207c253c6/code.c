@@ -1,4 +1,19 @@
 #include<stdio.h>
+
+int main() {
+    int n;
+
+    scanf("%d", &n);
+
+    if (n <=0) {
+        printf("Invalid Input\n");
+    }
+    else {
+        fibonacciSeries(n);
+    }
+    return 0;
+}
+
 void fibonacciSeries(int n) {
     int first = 0, second = 1, next;
 
@@ -10,18 +25,4 @@ void fibonacciSeries(int n) {
     }
     printf("\n");
     
-}
-
-int main() {
-    int n;
-    
-    scanf("%d", &n);
-
-    if (n <=0) {
-        printf("Invalid Input\n");
-    }
-    else {
-        fibonacciSeries(n);
-    }
-    return 0;
 }
