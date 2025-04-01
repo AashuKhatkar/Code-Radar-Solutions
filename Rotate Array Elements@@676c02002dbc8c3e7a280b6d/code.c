@@ -22,7 +22,7 @@ void rotateArray(int arr[], int n, int k) {
 // Function to print the array
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n ", arr[i]);
     }
     printf("\n");
 }
@@ -36,7 +36,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    scanf("%d\n", &k);
+    scanf("%d", &k);
 
     rotateArray(arr, n, k);
     printArray(arr, n);
